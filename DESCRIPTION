@@ -1,0 +1,11 @@
+Package: countdown
+Type: Package
+Title: Inserts a countdown timer into R Markdown documents
+Version: 0.1.0
+Imports: htmltools, lubridate
+Author: Joe Cheng <joe@joecheng.com>
+Maintainer: Joe Cheng <joe@joecheng.com>
+Description: For putting a simple timer into R Markdown documents. Don't get too excited.
+License: GPL-3
+LazyData: TRUE
+RoxygenNote: 5.0.1
