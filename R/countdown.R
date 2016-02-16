@@ -1,3 +1,7 @@
+#' Countdown Timer
+#' Inserts a countdown timer into R Markdown documents
+#'
+#' @param seconds The number of seconds to count down
 #' @import htmltools lubridate
 #' @export
 countdown_timer <- function(seconds) {

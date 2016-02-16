@@ -9,3 +9,6 @@ Description: For putting a simple timer into R Markdown documents. Don't get too
 License: GPL-3
 LazyData: TRUE
 RoxygenNote: 5.0.1
+Imports:
+    htmltools,
+    lubridate
