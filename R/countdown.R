@@ -25,9 +25,9 @@ countdown_timer <- function(seconds) {
       div(class="countdown-timer", `data-timespan`=as.character(seconds),
         span(class="countdown-timer-time", timeString),
         br(),
-        button(class="countdown-timer-start", type="button", "Start"),
-        button(class="countdown-timer-stop", type="button", "Stop"),
-        button(class="countdown-timer-reset", type="button", "Reset")
+        button(class="countdown-timer-start", type="button", "   "),
+        button(class="countdown-timer-stop", type="button", "   "),
+        button(class="countdown-timer-reset", type="button", "   ")
       )
     ),
     deps
