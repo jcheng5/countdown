@@ -42,6 +42,7 @@ $(document).on("click", ".countdown-timer-start", function(e) {
   var handle = setInterval(function() {
   	var left = Math.max(0, stop - new Date().getTime());
   	timerEl.data("countdown-timer-time", left);
+  	timerEl.trigger("countdown:time", {left: left / 1000});
     timerEl.find(".countdown-timer-time").text(formatTime(left));
     if (left === 0) {
     	clearInterval(handle);
